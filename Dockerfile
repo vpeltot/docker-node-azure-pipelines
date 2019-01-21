@@ -1,4 +1,4 @@
-FROM nginx:1.14-alpine
+FROM node:10.14-alpine
 
 # Install glibc & nodejs
 ENV GLIBC_VERSION 2.23-r3
